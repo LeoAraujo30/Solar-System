@@ -1,3 +1,29 @@
+body {
+  background-image: url('./images/background.png');
+}
+
 .App {
+  color: white;
   text-align: center;
+}
+
+.planets {
+  display: flex;
+}
+
+img {
+  width: 100%;
+}
+
+.missions {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.mission {
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  width: 18%;
 }
